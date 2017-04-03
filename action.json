@@ -1,0 +1,19 @@
+{
+  "versionLabel": "<INSERT YOUR VERSION LABEL HERE>",
+  "agentInfo": {
+    "languageCode": "en-US",
+    "projectId": "symbolic-truth-163221",
+    "voiceName": "male_1"
+  },
+  "actions": [
+    {
+      "description": "Launch intent",
+      "initialTrigger": {
+        "intent": "add_numbers"
+      },
+      "httpExecution": {
+        "url": "https://f4a119ec.ngrok.io/symbolic-truth-163221/us-central1/sillyNameMaker"
+      }
+    }
+  ]
+}
