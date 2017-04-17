@@ -2,14 +2,23 @@
   "versionLabel": "<INSERT YOUR VERSION LABEL HERE>",
   "agentInfo": {
     "languageCode": "en-US",
-    "projectId": "symbolic-truth-163221",
+    "projectId": "aniket-chopade",
     "voiceName": "male_1"
   },
   "actions": [
     {
+      "description": "Find Avis location",
+      "initialTrigger": {
+        "intent": "find_location"
+      },
+      "httpExecution": {
+        "url": "https://f4a119ec.ngrok.io/symbolic-truth-163221/us-central1/sillyNameMaker"
+      }
+    },
+       {
       "description": "Launch intent",
       "initialTrigger": {
-        "intent": "add_numbers"
+        "intent": "11-find-location.11-find-location-selectnumber"
       },
       "httpExecution": {
         "url": "https://f4a119ec.ngrok.io/symbolic-truth-163221/us-central1/sillyNameMaker"

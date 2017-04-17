@@ -10,11 +10,14 @@
   },
   "scripts": {
     "lint": "semistandard --fix \"**/*.js\"",
-    "start": "functions deploy addNumbers --trigger-http",
-    "deploy": "gcloud beta functions deploy addNumbers --trigger-http --stage-bucket aniketbucket"
+    "start": "functions deploy carBooker --trigger-http",
+    "deploy": "gcloud beta functions deploy carBooker --trigger-http --stage-bucket aniket-chopade-bucket"
   },
   "dependencies": {
-    "actions-on-google": "^1.0.0"
+    "actions-on-google": "^1.0.0",
+    "request-promise": "4.2.0",
+     "request": "^2.34",
+     "ssml-builder":  "0.1.0"    
   },
   "devDependencies": {
     "semistandard": "^9.1.0"

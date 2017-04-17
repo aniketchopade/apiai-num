@@ -1,0 +1,23 @@
+{
+    "FIND_LOCATION_ACTION": "find_location",
+    "SELECT_CONFIRM_ACTION": "1.1_find_location_select_number",
+    "FIND_AIRPORT_ACTION": "find_airport",
+    
+    "ZIP_CODE_ARGUMENT" : "zip-code",
+    "GEO_CITY_ARGUMENT" : "geo-city",
+    "GEO_STATE_ARGUMENT": "geo-state-us",
+    "SELECTION_ARGUMENT" : "number",
+    "SELECTION_ORDINAL_ARGUMENT" : "ordinal",
+
+    "US_AIRPORT_ARGUMENT": "us-airport",
+    "CHECK_OUT_DATE_ARGUMENT" : "check-out-date",
+    "RENTAL_PERIOD_ARGUMENT" : "rental-period",
+    "LOCATION_TYPE_ARGUMENT": "location-type",
+    
+    "LOCATION_CONTEXT"   : "location-choose",
+    "SELECT_CHOICE_CONTEXT" : "select-choice",
+
+    
+    "DEFAULT_LIFESPAN" : 5,
+    "NUM_OF_SUGGESTIONS": 3
+}
